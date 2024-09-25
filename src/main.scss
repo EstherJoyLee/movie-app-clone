@@ -359,3 +359,42 @@ footer {
     }
   }
 }
+
+.about {
+  .photo {
+    width: 230px;
+    height: 230px;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .name {
+    font-size: 40px;
+    @include font("Oswald");
+    margin-bottom: 20px;
+  }
+
+  p {
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+  a {
+    color: $color-primary;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.not-found {
+  h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: $color-white-10;
+    text-align: center;
+  }
+}

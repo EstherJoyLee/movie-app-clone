@@ -295,5 +295,37 @@ footer a:hover {
   color: #fff;
   margin: 24px 0 6px;
 }
+.about .photo {
+  width: 230px;
+  height: 230px;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.about .name {
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 20px;
+}
+.about p {
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 4px;
+}
+.about a {
+  color: #fdc000;
+  text-decoration: none;
+}
+.about a:hover {
+  text-decoration: underline;
+}
+
+.not-found h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
 
 /*# sourceMappingURL=main.css.map */
