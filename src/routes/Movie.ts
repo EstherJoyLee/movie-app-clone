@@ -32,7 +32,7 @@ export default class Movie extends Component {
             &nbsp;/&nbsp;
             <span>${movie.Runtime}</span>
             &nbsp;/&nbsp;
-            <span>${movie.country}</span>
+            <span>${movie.Country}</span>
           </div>
           <div class="plot">
             ${movie.Plot}

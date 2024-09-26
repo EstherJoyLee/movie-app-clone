@@ -14,17 +14,17 @@ export default class Search extends Component {
         `;
 
     const inputEl = this.el.querySelector("input");
-    inputEl.addEventListener("input", (e) => {
+    inputEl?.addEventListener("input", (e) => {
       movieStore.state.searchText = inputEl.value;
     });
-    inputEl.addEventListener("keydown", (e) => {
+    inputEl?.addEventListener("keydown", (e) => {
       if (e.key === "Enter" && movieStore.state.searchText.trim()) {
         searchMovies(1);
       }
     });
 
     const buttonEl = this.el.querySelector("button");
-    buttonEl.addEventListener("click", () => {
+    buttonEl?.addEventListener("click", () => {
       if (movieStore.state.searchText.trim()) {
         searchMovies(1);
       }

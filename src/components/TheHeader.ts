@@ -1,7 +1,16 @@
 import { Component } from "../core/core";
 import logoImg from "../../logo.gif";
 
+interface State {
+  [key: string]: unknown;
+  menus: {
+    name: string;
+    href: string;
+  }[];
+}
+
 export default class TheHeader extends Component {
+  public state!: State;
   constructor() {
     super({
       tagName: "header",
